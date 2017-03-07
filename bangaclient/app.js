@@ -33,7 +33,7 @@ angular.module('BangaClient').config(
         });
   }
 ]);
-
+//This is a factory for the root
 angular.module('BangaClient').factory('RootFactory', [
   "$http",
   "apiUrl",
