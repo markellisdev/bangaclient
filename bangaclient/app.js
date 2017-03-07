@@ -1,6 +1,6 @@
 // Create main Angular module
 var app = angular.module('BangaClient', ['ngRoute'])
-            .constant('apiUrl', "http://localhost:8000");
+            .constant('apiUrl', "http://localhost:8000"); //This is only hosting address needed
 
 // Configure to use interpolation punctuation that differs from Django's
 // and add the CSRF token when communicating via XHR with Django
