@@ -17,7 +17,7 @@ angular.module('BangaClient').config(
       $httpProvider.defaults.xsrfCookieName = 'csrftoken';
       $httpProvider.defaults.xsrfHeaderName = 'X-CSRFToken';
       $httpProvider.defaults.withCredentials = true;
-
+// Three routes
       $routeProvider
         .when('/', {
           controller: 'AuthController',
